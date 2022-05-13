@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+.tab3 {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+#logo-navbar img {
+    width: 70px;
+    height: 70px;
+}
+
+#slider {
+    padding: 50%;
+    background-image: url("../image/sach-hoc-tieng-nhat-mina-no-nihongo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: relative;
+    top : 70px
+}
+
+#slider .tieude {
+    position: absolute;
+    top: 60px;
+    transform: translateX(-50%)
+}
+
+#slider .tieude .sub-tieude {
+    text-align: center;
+    opacity: 0.7;
+}
+
+#slider .text-slider {
+    position: absolute;
+    bottom: 50px;
+    display: flex;
+    transform: translateX(-50%);
+
+
+}
+
+#slider .sub-text {
+    margin: 0 30px;
+    width: 300px;
+}
+
+#content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#content #tieude-content {
+    border: 1px solid #cccccc;
+    width: 365px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 5px 5px;
+}
+
+#content #input-content {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+#content #input-content button {
+    width: 70px;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    line-height: 35px;
+}
+
+#content #image-content {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+#content #image-content img {
+    width: 300px;
+}
+
+#content #text-content {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+#content #text-content p {
+    width: 300px;
+    font-size: 18px;
+
+}
+
+
